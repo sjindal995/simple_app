@@ -18,8 +18,16 @@ public class MainActivity extends ActionBarActivity {
         TextView logo1 = (TextView) findViewById(R.id.textView2);
         Animation fade1 = AnimationUtils.loadAnimation(this,R.anim.fade_in);
         logo1.startAnimation(fade1);
+//        TextView logo2 = (TextView) findViewById(R.id.textView2);
+//        Animation fade2 = AnimationUtils.loadAnimation(this,R.anim.fade_out);
+//        logo1.startAnimation(fade2);
     }
 
+    protected void onPause(){
+        TextView logo2 = (TextView) findViewById(R.id.textView2);
+        Animation fade2 = AnimationUtils.loadAnimation(this,R.anim.fade_out);
+        logo2.startAnimation(fade2);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
