@@ -7,9 +7,9 @@
     android:background="@android:color/background_light">
 
     <!--<TextView android:text="@string/hello_world" android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
-        <!--android:id="@+id/textView" />-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+    <!--android:id="@+id/textView" />-->
 
     <TextView
         android:text="@string/myname"
@@ -47,6 +47,13 @@
                 android:layout_gravity="center"
                 />
         </TableRow>
+        <ImageView
+            android:src="@drawable/image6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView1"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp" />
         <TableRow
             android:id="@+id/TableRow2"
             android:layout_height="match_parent"
@@ -67,15 +74,8 @@
                 android:layout_gravity="center"
                 />
         </TableRow>
-     </TableLayout>
+    </TableLayout>
 
-    <ImageView
-        android:src="@drawable/image6"
-        android:layout_width="1000dp"
-        android:layout_height="1000dp"
-        android:id="@+id/imageView1"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="0dp" />
 
 
     <!--<ImageView-->
